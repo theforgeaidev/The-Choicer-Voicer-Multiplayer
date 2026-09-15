@@ -1,0 +1,17 @@
+{
+  "COPIAR_MIS_PACKS.bat": "382d4356f1c750bc5765e75b6b698259f875e5aaa2ec1e878783e4153c1028b0",
+  "copiar_packs.ps1": "352c534027af0cc830c809f54fc5c09258ea92bafe7ee78d2946b030fe6c0097",
+  "fuentes-adaptacion.zip": "863fb05de990cf93b3e8f4dba3727ffb81c38326b8694008f95578ff684dade9",
+  "JUGAR.bat": "5452dfc977a2ab81e4e4c890dad6b8f952eeeb4884670c65c1274de213f82cdb",
+  "LEEME.txt": "d7876b292cb86e08581d8f369ee350b59bf5e78fc0a944c01867c2072fd38028",
+  "VALIDACION-PAQUETE.txt": "b191c46a9758db52ce51c62ae233bba5efe6fb41485acf4f380d0d7172dbff60",
+  "VALIDACION.txt": "bdb8a3978647f0c3c3c1c4094d42d8717629ffa7c3919515a559f1fe541112ce",
+  "vista-previa.png": "812c967b6e208289a3cf431a9acd52a8f54ed52750a6054ee355be63a6f6df34",
+  "runtime/ChoicerVoicer.exe": "fd2ceb22082c52ea3fad66059e5acf625b4dada49482dbc376c94853b7af2e18",
+  "runtime/experimental.pck": "d8c54634ea8b88d274f382f313756fc04186845406ad0f4d411657db31771325",
+  "runtime/GODOT-LICENSE.txt": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80",
+  "runtime/steam_api64.dll": "8de54d32508e216c9135b8bf025749243d44e404c1c22a8e5fe35acecabe7a9c",
+  "runtime/steam_appid.txt": "66c342932aa7c18f7bf1fa212aa011069fc2e50e0c7e9e4c73fcaa6851854c47",
+  "runtime/addons/godotsteam/win64/libgodotsteam.windows.template_debug.x86_64.dll": "f45768d1bfc01eb4d97c317d24ed5dd2f95b1fb69b2c305fcf9b4d94850b4484",
+  "runtime/addons/godotsteam/win64/steam_api64.dll": "8de54d32508e216c9135b8bf025749243d44e404c1c22a8e5fe35acecabe7a9c"
+}

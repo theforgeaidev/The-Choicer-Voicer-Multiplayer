@@ -1,0 +1,66 @@
+﻿THE CHOICER VOICER — MULTIJUGADOR EXPERIMENTAL 0.5.1, revision 1
+
+ABRIR
+1. Extrae la carpeta completa a una ubicacion propia. No la mezcles con tu juego original.
+2. Abre Steam e inicia sesion.
+3. Opcional: ejecuta COPIAR_MIS_PACKS.bat para copiar tus packs a la prueba.
+4. Ejecuta JUGAR.bat. Entra en Multiplayer, crea una sala o pega el codigo de Steam.
+5. Todos los participantes deben usar esta misma edicion experimental revision 1.
+
+QUE ES
+Reconstruccion experimental a partir de tu copia 0.5.1 compatibility, con codigo,
+escenas y dependencias recuperados del mod Steam para 0.5.3. Incluye cambios de
+versiones posteriores necesarios para esa integracion: no es una 0.5.1 pura.
+Usa Godot oficial 4.4.1 en modo grafico Compatibility.
+No es un parche oficial del juego ni una version certificada por el autor del mod.
+El ZIP original y tu ejecutable original no se modificaron.
+
+MEJORAS DE ESTA PRUEBA
+- Fallar con mensaje claro si el host no conecta en 15 segundos; antes se anunciaba
+  exito incluso sin conexion real.
+- Reintentar la inicializacion de Steam al crear/unirse si no estaba disponible.
+- Evitar salas de otras versiones mediante identificador experimental separado.
+- Leer los packs por bloques al calcular su firma y enviarlos, en lugar de cargar
+  cada archivo entero en memoria. La recepcion aun acumula un archivo completo.
+- Limpiar descargas incompletas al desconectarse el emisor o tras 60 segundos sin datos.
+- Comprobar rutas y tamanos declarados de los archivos recibidos.
+- Limitar historial del chat y longitud de mensajes recibidos.
+- Corregir el campo de entrada para pedir codigo Steam y mostrar su disponibilidad.
+- Desactivar avisos automaticos de actualizacion del juego base en esta edicion.
+
+DATOS SEPARADOS
+Los datos de esta prueba se guardan en:
+%APPDATA%\YeahMaybe\ChoicerVoicer-MP-Experimental
+Tus datos originales permanecen en:
+%APPDATA%\YeahMaybe\ChoicerVoicer
+La copia opcional de packs no sobrescribe packs de prueba existentes ni copia partidas.
+
+VALIDACION REALIZADA
+- 17 comprobaciones automatizadas: menu principal y sala multijugador,
+  firma por bloques, desconexion, espera agotada, rutas y datos separados.
+- Transferencia local entre dos procesos: 3.145.759 bytes, subcarpeta y archivo vacio;
+  firmas iguales al terminar. Usa ENet local para comprobar la logica de transferencia.
+- Revision visual de la sala con renderizado OpenGL.
+- Exportacion y prueba del paquete final.
+
+LIMITES
+No se ha validado una partida completa entre dos equipos/cuentas Steam,
+ni grabacion real del microfono, sincronizacion de doblaje o sesiones largas.
+Persisten avisos de recursos retenidos al cerrar, heredados del proyecto recuperado.
+La validacion local no garantiza funcionamiento por Steam ni ausencia de otros fallos.
+Si falla, guarda logs\juego.log y describe en que pantalla ocurrio.
+
+AUTORES Y HERRAMIENTAS
+Juego original: YeahMaybe — https://yeahmaybe.itch.io/the-choicer-voicer
+Mod Steam: Meotastic/Meowtastic — https://github.com/Meotastic/CV-MultiplayerMOD
+Publicacion: https://gamebanana.com/mods/713894
+Motor: Godot 4.4.1 — https://godotengine.org/license/
+Recuperacion: GDRETools — https://github.com/GDRETools/gdsdecomp
+Adaptaciones experimentales locales realizadas para esta prueba.
+No publiques este paquete con archivos del juego como si fuera un mod independiente.
+
+FUENTES
+fuentes-adaptacion.zip incluye scripts, escenas y configuracion editables recuperados,
+las modificaciones locales y pruebas. Los recursos multimedia se encuentran en el PCK.
+Es una copia de referencia; para reconstruir el proyecto completo tambien se necesitan
+los recursos recuperados en la carpeta de trabajo de esta tarea.

@@ -1,0 +1,107 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+Microphone Service | v7.2: AudioEffectCapture on Plmic speaker_mode=0 bus_ch=1 mix_rate=44100 buffer=20.0s
+M | Data successfully loaded.
+UC | Expected user file 'user://game/packs_host/Default/config_host.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_judges/Default/config_judges.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_menu/Default/config_menu.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_studio/Default/config_studio.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_player/Default/config_player.json' does not exist
+UC | Using entirety of default JSON
+UC | Beginning folder population with res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/ as a base
+		ChoicerVoicerTutorialPack1.png
+PASS: isolated user data
+PASS: accept path game/packs_voice/My pack
+PASS: accept path audio/clip.wav
+PASS: reject path ../save.json
+PASS: reject path /absolute
+PASS: reject path C:/Windows
+PASS: reject path a/../b
+PASS: reject path a\b
+PASS: reject path a//b
+PASS: reject path a./b
+PASS: streaming hash matches original algorithm across multiple blocks
+PASS: stalled receive is cleared and reported
+PASS: disconnect clears incomplete receive
+PASS: connection timeout reports failure instead of false success
+PASS: chat history stays bounded
+PASS: main world loads
+UC | Expected user file 'user://game/packs_menu/Default/config_menu.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_menu/Default/config_menu.json' does not exist
+UC | Using entirety of default JSON
+MenuMaster | Music change hash comparison: -1 vs 2431071213
+		ChoicerVoicerTutorialPack1.png.import
+		ChoicerVoicerTutorialPack1.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/ChoicerVoicerTutorialPack1.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/ChoicerVoicerTutorialPack1.txt
+		ChoicerVoicerTutorialPack1.wav
+		ChoicerVoicerTutorialPack1.wav.import
+		ChoicerVoicerTutorialPack2.png
+		ChoicerVoicerTutorialPack2.png.import
+		ChoicerVoicerTutorialPack2.wav
+		ChoicerVoicerTutorialPack2.wav.import
+		ChoicerVoicerTutorialPack3.png
+		ChoicerVoicerTutorialPack3.png.import
+		ChoicerVoicerTutorialPack3.wav
+		ChoicerVoicerTutorialPack3.wav.import
+		ChoicerVoicerTutorialPack4.png
+		ChoicerVoicerTutorialPack4.png.import
+		ChoicerVoicerTutorialPack4.wav
+		ChoicerVoicerTutorialPack4.wav.import
+		ChoicerVoicerTutorialPack5.png
+		ChoicerVoicerTutorialPack5.png.import
+		ChoicerVoicerTutorialPack5.wav
+		ChoicerVoicerTutorialPack5.wav.import
+		_author.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/_author.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/_author.txt
+		_subtitle.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/_subtitle.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/_subtitle.txt
+PASS: multiplayer lobby screen opens
+TEST_RESULT: 17 checks, 0 failures
+
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+Microphone Service | v7.2: AudioEffectCapture on Plmic speaker_mode=0 bus_ch=1 mix_rate=44100 buffer=20.0s
+M | Data successfully loaded.
+UC | Expected user file 'user://game/packs_host/Default/config_host.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_judges/Default/config_judges.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_menu/Default/config_menu.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_studio/Default/config_studio.json' does not exist
+UC | Using entirety of default JSON
+UC | Expected user file 'user://game/packs_player/Default/config_player.json' does not exist
+UC | Using entirety of default JSON
+UC | Beginning folder population with res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/ as a base
+		ChoicerVoicerTutorialPack1.png
+		ChoicerVoicerTutorialPack1.png.import
+		ChoicerVoicerTutorialPack1.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/ChoicerVoicerTutorialPack1.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/ChoicerVoicerTutorialPack1.txt
+		ChoicerVoicerTutorialPack1.wav
+		ChoicerVoicerTutorialPack1.wav.import
+		ChoicerVoicerTutorialPack2.png
+		ChoicerVoicerTutorialPack2.png.import
+		ChoicerVoicerTutorialPack2.wav
+		ChoicerVoicerTutorialPack2.wav.import
+		ChoicerVoicerTutorialPack3.png
+		ChoicerVoicerTutorialPack3.png.import
+		ChoicerVoicerTutorialPack3.wav
+		ChoicerVoicerTutorialPack3.wav.import
+		ChoicerVoicerTutorialPack4.png
+		ChoicerVoicerTutorialPack4.png.import
+		ChoicerVoicerTutorialPack4.wav
+		ChoicerVoicerTutorialPack4.wav.import
+		ChoicerVoicerTutorialPack5.png
+		ChoicerVoicerTutorialPack5.png.import
+		ChoicerVoicerTutorialPack5.wav
+		ChoicerVoicerTutorialPack5.wav.import
+		_author.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/_author.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/_author.txt
+		_subtitle.txt
+UC | Copying default file from res://game_default/packs_voice/The Choicer Voicer Tutorial Pack/_subtitle.txt -> user://game/packs_voice/The Choicer Voicer Tutorial Pack/_subtitle.txt
+TRANSFER_CLIENT: true, bytes=3145759, includes nested and empty files
